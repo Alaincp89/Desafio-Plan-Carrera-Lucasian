@@ -23,6 +23,7 @@ La arquitectura del sistema está organizada de la siguiente forma:
 
 ## Consideraciones del Desafío 🚀
 Requerimientos Funcionales
+
 **Microservicio de Transacciones:**
 
 - Conexión a una base de datos para gestionar las transacciones.
@@ -85,11 +86,10 @@ Requerimientos Funcionales
 ## Probar los endpoints a través de Postman o cualquier otra herramienta de prueba de API. 
 
 **Ejemplos de endpoints disponibles:**
-**Microservicio de Transacciones**
 - GET /api/transactions/completed - Obtiene las transacciones completadas.
 - GET /api/parameters - Lista todos los parámetros.
-- Estructura de los Endpoints 🌐
-- Microservicio de Transacciones
+- **Estructura de los Endpoints 🌐**
+**Microservicio de Transacciones**
 - GET /api/transactions - Lista todas las transacciones.
 - GET /api/transactions/completed - Obtiene las transacciones completadas.
 - GET /api/transactions/{id} - Consulta una transacción específica por ID.
