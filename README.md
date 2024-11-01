@@ -1,4 +1,5 @@
-#📈 Sistema de Gestión de Transacciones y Parámetros📈
+##📈 Sistema de Gestión de Transacciones y Parámetros📈
+
 ##Descripción del Proyecto 📝
 Este proyecto implementa un sistema de gestión de transacciones y parámetros, desarrollado como parte de un desafío técnico. El sistema está compuesto por dos microservicios independientes en Java, cada uno diseñado para manejar distintas funcionalidades:
 
@@ -20,7 +21,7 @@ Bases de Datos MySQL: Cada microservicio está conectado a una base de datos esp
 transaction_db para el microservicio de transacciones.
 parameter_db para el microservicio de parámetros.
 
-#Consideraciones del Desafío 🚀
+##Consideraciones del Desafío 🚀
 Requerimientos Funcionales
 Microservicio de Transacciones:
 
