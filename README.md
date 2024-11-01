@@ -1,6 +1,6 @@
-##📈 Sistema de Gestión de Transacciones y Parámetros📈
+# 📈 Sistema de Gestión de Transacciones y Parámetros📈
 
-##Descripción del Proyecto 📝
+## Descripción del Proyecto 📝
 Este proyecto implementa un sistema de gestión de transacciones y parámetros, desarrollado como parte de un desafío técnico. El sistema está compuesto por dos microservicios independientes en Java, cada uno diseñado para manejar distintas funcionalidades:
 
 Microservicio de Transacciones: Gestiona la creación, actualización y consulta de transacciones.
@@ -21,7 +21,7 @@ Bases de Datos MySQL: Cada microservicio está conectado a una base de datos esp
 transaction_db para el microservicio de transacciones.
 parameter_db para el microservicio de parámetros.
 
-##Consideraciones del Desafío 🚀
+## Consideraciones del Desafío 🚀
 Requerimientos Funcionales
 Microservicio de Transacciones:
 
@@ -40,7 +40,7 @@ Lombok: Utilizado para reducir la escritura de código repetitivo y mejorar la c
 Pruebas Unitarias: Implementación de pruebas unitarias para garantizar la calidad del código y el correcto funcionamiento de los microservicios.
 Streams y Lambdas de Java: Utilizados para optimizar y simplificar el procesamiento de datos en el microservicio de transacciones.
 
-##Tecnologías Utilizadas 💻
+## Tecnologías Utilizadas 💻
 Java 17
 Spring Boot
 Spring Data JPA
@@ -50,7 +50,7 @@ Lombok
 JUnit 5 para pruebas unitarias
 Git para control de versiones
 
-##Instalación y Ejecución ⚙️
+## Instalación y Ejecución ⚙️
 Requisitos Previos
 Tener instalado Java 17 o superior.
 Tener una instancia de MySQL configurada con dos bases de datos:
@@ -81,7 +81,7 @@ Copiar código
 ./mvnw spring-boot:run
 ##Probar los endpoints a través de Postman o cualquier otra herramienta de prueba de API. 
 
-##Ejemplos de endpoints disponibles:
+## Ejemplos de endpoints disponibles:
 
 GET /api/transactions/completed - Obtiene las transacciones completadas.
 GET /api/parameters - Lista todos los parámetros.
@@ -98,7 +98,7 @@ POST /api/parameters - Crea un nuevo parámetro.
 PUT /api/parameters/{id} - Actualiza un parámetro existente.
 DELETE /api/parameters/{id} - Elimina un parámetro.
 
-##Pruebas Unitarias 🧪
+## Pruebas Unitarias 🧪
 Se han implementado pruebas unitarias para verificar el funcionamiento de los métodos principales en cada microservicio. Las pruebas están ubicadas en el directorio src/test y se ejecutan con JUnit 5. Para ejecutar las pruebas:
 
 bash
@@ -107,7 +107,7 @@ Copiar código
 Colaboradores 🤝
 Alain Cervantes - Desarrollador Principal
 
-##Contribuciones 🛠️
+## Contribuciones 🛠️
 Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cualquier cambio que desees realizar.
 
 
