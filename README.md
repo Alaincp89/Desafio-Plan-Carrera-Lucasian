@@ -23,35 +23,36 @@ La arquitectura del sistema está organizada de la siguiente forma:
 
 ## Consideraciones del Desafío 🚀
 Requerimientos Funcionales
-Microservicio de Transacciones:
+**Microservicio de Transacciones:**
 
-Conexión a una base de datos para gestionar las transacciones.
-Registro de trazabilidad de cada transacción.
-Implementación de operaciones de consulta y registro.
-Microservicio de Parámetros:
+- Conexión a una base de datos para gestionar las transacciones.
+- Registro de trazabilidad de cada transacción.
+- Implementación de operaciones de consulta y registro.
+- 
+**Microservicio de Parámetros:**
 
-Conexión a una base de datos independiente para gestionar parámetros.
-Implementación de operaciones CRUD completas.
-Requerimientos No Funcionales
-Conexiones de Base de Datos: Configuradas para utilizar Spring Data JPA, permitiendo una interacción eficiente con ambas bases de datos.
-Diseño de Arquitectura: Utilización de Clean Architecture, asegurando una clara separación entre la lógica de negocio y los detalles de implementación.
-Logging: Configuración de Logback para registrar eventos importantes y gestionar la trazabilidad.
-Lombok: Utilizado para reducir la escritura de código repetitivo y mejorar la claridad del código.
-Pruebas Unitarias: Implementación de pruebas unitarias para garantizar la calidad del código y el correcto funcionamiento de los microservicios.
-Streams y Lambdas de Java: Utilizados para optimizar y simplificar el procesamiento de datos en el microservicio de transacciones.
+- Conexión a una base de datos independiente para gestionar parámetros.
+- Implementación de operaciones CRUD completas.
+- Requerimientos No Funcionales
+- Conexiones de Base de Datos: Configuradas para utilizar Spring Data JPA, permitiendo una interacción eficiente con ambas bases de datos.
+- Diseño de Arquitectura: Utilización de Clean Architecture, asegurando una clara separación entre la lógica de negocio y los detalles de implementación.
+- Logging: Configuración de Logback para registrar eventos importantes y gestionar la trazabilidad.
+- Lombok: Utilizado para reducir la escritura de código repetitivo y mejorar la claridad del código.
+- Pruebas Unitarias: Implementación de pruebas unitarias para garantizar la calidad del código y el correcto funcionamiento de los microservicios.
+- Streams y Lambdas de Java: Utilizados para optimizar y simplificar el procesamiento de datos en el microservicio de transacciones.
 
 ## Tecnologías Utilizadas 💻
-Java 17
-Spring Boot
-Spring Data JPA
-MySQL
-Logback
-Lombok
-JUnit 5 para pruebas unitarias
-Git para control de versiones
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- Logback
+- Lombok
+- JUnit 5 para pruebas unitarias
+- Git para control de versiones
 
 ## Instalación y Ejecución ⚙️
-Requisitos Previos
+**Requisitos Previos**
 Tener instalado Java 17 o superior.
 Tener una instancia de MySQL configurada con dos bases de datos:
 transaction_db para el microservicio de transacciones.
