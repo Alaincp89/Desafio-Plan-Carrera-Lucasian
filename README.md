@@ -28,7 +28,7 @@ Requerimientos Funcionales
 - Conexión a una base de datos para gestionar las transacciones.
 - Registro de trazabilidad de cada transacción.
 - Implementación de operaciones de consulta y registro.
-- 
+  
 **Microservicio de Parámetros:**
 
 - Conexión a una base de datos independiente para gestionar parámetros.
@@ -53,60 +53,64 @@ Requerimientos Funcionales
 
 ## Instalación y Ejecución ⚙️
 **Requisitos Previos**
-Tener instalado Java 17 o superior.
-Tener una instancia de MySQL configurada con dos bases de datos:
-transaction_db para el microservicio de transacciones.
-parameter_db para el microservicio de parámetros.
-Configurar las credenciales de conexión a MySQL en los archivos de configuración (application.properties o application.yml) para cada microservicio.
-Pasos para la Ejecución
-Clonar este repositorio:
+- Tener instalado Java 17 o superior.
+- Tener una instancia de MySQL configurada con dos bases de datos:
+- transaction_db para el microservicio de transacciones.
+- parameter_db para el microservicio de parámetros.
+- Configurar las credenciales de conexión a MySQL en los archivos de configuración (application.properties o application.yml) para cada microservicio.
+- Pasos para la Ejecución
+  
+**Clonar este repositorio:**
 
-bash
-Copiar código
-git clone https://github.com/Alaincp89/Desafio-Plan-Carrera-Lucasian.git
-cd Desafio-Plan-Carrera-Lucasian
-Configurar las bases de datos en MySQL:
+**bash**
+- Copiar código
+- git clone https://github.com/Alaincp89/Desafio-Plan-Carrera-Lucasian.git
+- cd Desafio-Plan-Carrera-Lucasian
+- Configurar las bases de datos en MySQL:
 
-sql
-Copiar código
-CREATE DATABASE transaction_db;
-CREATE DATABASE parameter_db;
+**sql**
+- Copiar código
+- CREATE DATABASE transaction_db;
+- CREATE DATABASE parameter_db;
 -- Puedes ejecutar los scripts de generación de tablas que se encuentran en `scripts/`.
-Configurar los archivos application.properties en cada microservicio con las credenciales de acceso a MySQL.
+- Configurar los archivos application.properties en cada microservicio con las credenciales de acceso a MySQL.
 
-Compilar y ejecutar cada microservicio:
+**Compilar y ejecutar cada microservicio:**
 
-bash
-Copiar código
-./mvnw clean install
-./mvnw spring-boot:run
-##Probar los endpoints a través de Postman o cualquier otra herramienta de prueba de API. 
+**bash**
+- Copiar código
+- ./mvnw clean install
+- ./mvnw spring-boot:run
+  
+## Probar los endpoints a través de Postman o cualquier otra herramienta de prueba de API. 
 
-## Ejemplos de endpoints disponibles:
-
-GET /api/transactions/completed - Obtiene las transacciones completadas.
-GET /api/parameters - Lista todos los parámetros.
-Estructura de los Endpoints 🌐
-Microservicio de Transacciones
-GET /api/transactions - Lista todas las transacciones.
-GET /api/transactions/completed - Obtiene las transacciones completadas.
-GET /api/transactions/{id} - Consulta una transacción específica por ID.
-POST /api/transactions - Crea una nueva transacción.
-Microservicio de Parámetros
-GET /api/parameters - Lista todos los parámetros.
-GET /api/parameters/{id} - Consulta un parámetro específico por ID.
-POST /api/parameters - Crea un nuevo parámetro.
-PUT /api/parameters/{id} - Actualiza un parámetro existente.
-DELETE /api/parameters/{id} - Elimina un parámetro.
+**Ejemplos de endpoints disponibles:**
+**Microservicio de Transacciones**
+- GET /api/transactions/completed - Obtiene las transacciones completadas.
+- GET /api/parameters - Lista todos los parámetros.
+- Estructura de los Endpoints 🌐
+- Microservicio de Transacciones
+- GET /api/transactions - Lista todas las transacciones.
+- GET /api/transactions/completed - Obtiene las transacciones completadas.
+- GET /api/transactions/{id} - Consulta una transacción específica por ID.
+- POST /api/transactions - Crea una nueva transacción.
+  
+**Microservicio de Parámetros**
+- GET /api/parameters - Lista todos los parámetros.
+- GET /api/parameters/{id} - Consulta un parámetro específico por ID.
+- POST /api/parameters - Crea un nuevo parámetro.
+- PUT /api/parameters/{id} - Actualiza un parámetro existente.
+- DELETE /api/parameters/{id} - Elimina un parámetro.
 
 ## Pruebas Unitarias 🧪
 Se han implementado pruebas unitarias para verificar el funcionamiento de los métodos principales en cada microservicio. Las pruebas están ubicadas en el directorio src/test y se ejecutan con JUnit 5. Para ejecutar las pruebas:
 
-bash
-Copiar código
-./mvnw test
-Colaboradores 🤝
-Alain Cervantes - Desarrollador Principal
+**bash**
+- Copiar código
+- ./mvnw test
+  
+## Colaborador 🤝
+**Alain Cervantes - Developer Semi Senior**
 
 ## Contribuciones 🛠️
 Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cualquier cambio que desees realizar.
