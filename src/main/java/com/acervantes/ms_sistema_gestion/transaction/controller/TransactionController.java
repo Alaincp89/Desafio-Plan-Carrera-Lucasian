@@ -62,4 +62,23 @@ public class TransactionController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
         }
     }
+    @GetMapping("/completadas")
+    public List<Transaction> getCompletedTransactions() {
+        log.info("Utilizando la API Stream");
+        log.info("Endpoint para obtener transacciones completadas");
+        return transactionService.getCompletedTransactions();
+    }
+    @GetMapping("/valor-total")
+    public Double getTotalValueOfTransactions() {
+        log.info("Utilizando la API Stream");
+        log.info("Endpoint para obtener el valor total de todas las transacciones");
+        return transactionService.getTotalValueOfTransactions();
+    }
+
+    @GetMapping("/fecha")
+    public List<Transaction> getTransactionsSortedByDate() {
+        log.info("Utilizando la API Stream");
+        log.info("Endpoint para obtener transacciones ordenadas por fecha");
+        return transactionService.getTransactionsSortedByDate();
+    }
 }

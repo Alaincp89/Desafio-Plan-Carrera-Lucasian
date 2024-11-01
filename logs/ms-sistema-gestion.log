@@ -1,11 +1,6 @@
-2024-11-01 14:14:55,725 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ApiGatewayApplication using Java 17.0.12 with PID 4328 (F:\Lucasian\Test-Lucasian\ms-sistema-gestion\target\classes started by Lucasian Labs S.A.S in F:\Lucasian\Test-Lucasian\ms-sistema-gestion)
-2024-11-01 14:14:55,727 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.3.5, Spring v6.1.14
-2024-11-01 14:14:55,728 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2024-11-01 14:15:01,436 INFO [main] org.springframework.boot.StartupInfoLogger: Started ApiGatewayApplication in 6.198 seconds (process running for 7.101)
-2024-11-01 14:16:18,284 INFO [http-nio-8080-exec-1] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Iniciando operación para crear un nuevo parámetro
-2024-11-01 14:16:18,398 INFO [http-nio-8080-exec-1] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Parámetro creado exitosamente con ID: 3
-2024-11-01 14:16:27,848 INFO [http-nio-8080-exec-3] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: *********************************************************
-2024-11-01 14:16:27,848 INFO [http-nio-8080-exec-3] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: ********* INICIA MICROSERVICIO DE PARÁMETROS ************
-2024-11-01 14:16:27,848 INFO [http-nio-8080-exec-3] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: *********************************************************
-2024-11-01 14:16:27,848 INFO [http-nio-8080-exec-3] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Iniciando operación para listar todos los parámetros
-2024-11-01 14:16:27,965 INFO [http-nio-8080-exec-3] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Parámetros recuperados exitosamente
+2024-11-01 15:07:31,762 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ApiGatewayApplication using Java 17.0.12 with PID 21404 (F:\Lucasian\Test-Lucasian\ms-sistema-gestion\target\classes started by Lucasian Labs S.A.S in F:\Lucasian\Test-Lucasian\ms-sistema-gestion)
+2024-11-01 15:07:31,765 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-01 15:07:31,766 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2024-11-01 15:07:37,253 INFO [main] org.springframework.boot.StartupInfoLogger: Started ApiGatewayApplication in 5.99 seconds (process running for 6.917)
+2024-11-01 15:08:00,426 INFO [http-nio-8080-exec-4] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Utilizando la API Stream
+2024-11-01 15:08:00,426 INFO [http-nio-8080-exec-4] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Endpoint para obtener transacciones completadas
