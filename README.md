@@ -10,16 +10,16 @@ Cada microservicio se conecta a su propia base de datos MySQL y está diseñado 
 ## Arquitectura del Sistema 🏗️
 La arquitectura del sistema está organizada de la siguiente forma:
 
-API Gateway: Centraliza y gestiona las solicitudes que llegan a los microservicios. Permite la escalabilidad y el control del tráfico entre el cliente y los servicios internos.
-Microservicios con Spring Boot: Cada microservicio sigue una estructura en capas:
-Controller: Gestiona las solicitudes HTTP entrantes.
-Service: Contiene la lógica de negocio y realiza operaciones de procesamiento de datos.
-Repository: Interactúa con la base de datos MySQL para realizar operaciones CRUD.
-Entities: Define las entidades de negocio.
-Logback: Configurado para el registro detallado de eventos y trazabilidad.
-Bases de Datos MySQL: Cada microservicio está conectado a una base de datos específica:
-transaction_db para el microservicio de transacciones.
-parameter_db para el microservicio de parámetros.
+- **API Gateway:** Centraliza y gestiona las solicitudes que llegan a los **microservicios**. Permite la escalabilidad y el control del tráfico entre el cliente y los servicios internos.
+  - **Microservicios** con **Spring Boot:** Cada microservicio sigue una estructura en capas:
+  - Controller: Gestiona las solicitudes HTTP entrantes.
+  - Service: Contiene la lógica de negocio y realiza operaciones de procesamiento de datos.
+  - Repository: Interactúa con la base de datos MySQL para realizar operaciones CRUD.
+  - Entities: Define las entidades de negocio.
+- **Logback:** Configurado para el registro detallado de eventos y trazabilidad.
+- **Bases de Datos MySQL:** Cada microservicio está conectado a una base de datos específica:
+  - transaction_db para el microservicio de transacciones.
+  - parameter_db para el microservicio de parámetros.
 
 ## Consideraciones del Desafío 🚀
 Requerimientos Funcionales
