@@ -1,3 +1,6 @@
+CREATE DATABASE transaction_db;
+USE transaction_db;
+
 CREATE TABLE transaction (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     id_usuario BIGINT NOT NULL,
@@ -6,10 +9,13 @@ CREATE TABLE transaction (
     tipo_moneda VARCHAR(3) NOT NULL,
     tipo_transaccion VARCHAR(50) NOT NULL,
     metodo_pago VARCHAR(50) NOT NULL,
-    fecha_transaccion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    fecha_transaccion TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     descripcion TEXT,
     status_transaccion VARCHAR(20) NOT NULL
 );
+
+CREATE DATABASE parameter_db;
+USE parameter_db;
 
 CREATE TABLE parameter (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
