@@ -88,6 +88,7 @@ Requerimientos Funcionales
 **Ejemplos de endpoints disponibles:**
 - GET /api/transactions/completed - Obtiene las transacciones completadas.
 - GET /api/parameters - Lista todos los parámetros.
+  
 **Estructura de los Endpoints 🌐**
   
 **Microservicio de Transacciones**
