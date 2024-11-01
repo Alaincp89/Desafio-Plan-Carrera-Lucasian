@@ -4,3 +4,12 @@
 2024-11-01 15:07:37,253 INFO [main] org.springframework.boot.StartupInfoLogger: Started ApiGatewayApplication in 5.99 seconds (process running for 6.917)
 2024-11-01 15:08:00,426 INFO [http-nio-8080-exec-4] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Utilizando la API Stream
 2024-11-01 15:08:00,426 INFO [http-nio-8080-exec-4] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Endpoint para obtener transacciones completadas
+2024-11-01 15:09:20,336 INFO [http-nio-8080-exec-7] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Utilizando la API Stream
+2024-11-01 15:09:20,336 INFO [http-nio-8080-exec-7] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Endpoint para obtener el valor total de todas las transacciones
+2024-11-01 15:09:33,459 INFO [http-nio-8080-exec-8] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: *********************************************************
+2024-11-01 15:09:33,460 INFO [http-nio-8080-exec-8] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: ********* INICIA MICROSERVICIO TRANSACCIONES ************
+2024-11-01 15:09:33,460 INFO [http-nio-8080-exec-8] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: *********************************************************
+2024-11-01 15:09:33,461 INFO [http-nio-8080-exec-8] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Iniciando obtención de todas las transacciones
+2024-11-01 15:09:33,468 INFO [http-nio-8080-exec-8] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Transacciones obtenidas exitosamente. Total: 3
+2024-11-01 15:10:09,512 INFO [http-nio-8080-exec-9] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Utilizando la API Stream
+2024-11-01 15:10:09,513 INFO [http-nio-8080-exec-9] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Endpoint para obtener transacciones ordenadas por fecha

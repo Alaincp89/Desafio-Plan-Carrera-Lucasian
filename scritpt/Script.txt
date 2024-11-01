@@ -1,0 +1,21 @@
+CREATE TABLE transaction (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    id_usuario BIGINT NOT NULL,
+    id_comercio BIGINT NOT NULL,
+    valor_transaccion DECIMAL(10, 2) NOT NULL,
+    tipo_moneda VARCHAR(3) NOT NULL,
+    tipo_transaccion VARCHAR(50) NOT NULL,
+    metodo_pago VARCHAR(50) NOT NULL,
+    fecha_transaccion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    descripcion TEXT,
+    status_transaccion VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE parameter (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    tipo_parametro VARCHAR(50) NOT NULL,
+    contexto VARCHAR(100) NOT NULL,
+    descripcion TEXT,
+    estado VARCHAR(20) NOT NULL,
+    fecha_ultima_actualizacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
