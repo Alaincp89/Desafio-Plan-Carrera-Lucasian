@@ -1,4 +1,3 @@
-
 #📈 Sistema de Gestión de Transacciones y Parámetros📈
 ##Descripción del Proyecto 📝
 Este proyecto implementa un sistema de gestión de transacciones y parámetros, desarrollado como parte de un desafío técnico. El sistema está compuesto por dos microservicios independientes en Java, cada uno diseñado para manejar distintas funcionalidades:
