@@ -13,3 +13,39 @@
 2024-11-01 15:09:33,468 INFO [http-nio-8080-exec-8] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Transacciones obtenidas exitosamente. Total: 3
 2024-11-01 15:10:09,512 INFO [http-nio-8080-exec-9] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Utilizando la API Stream
 2024-11-01 15:10:09,513 INFO [http-nio-8080-exec-9] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Endpoint para obtener transacciones ordenadas por fecha
+2024-11-01 17:46:58,940 INFO [http-nio-8080-exec-1] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: *********************************************************
+2024-11-01 17:46:58,942 INFO [http-nio-8080-exec-1] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: ********* INICIA MICROSERVICIO TRANSACCIONES ************
+2024-11-01 17:46:58,942 INFO [http-nio-8080-exec-1] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: *********************************************************
+2024-11-01 17:46:58,942 INFO [http-nio-8080-exec-1] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Iniciando obtención de todas las transacciones
+2024-11-01 17:46:58,977 INFO [http-nio-8080-exec-1] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Transacciones obtenidas exitosamente. Total: 3
+2024-11-01 17:52:43,833 INFO [http-nio-8080-exec-5] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Utilizando la API Stream
+2024-11-01 17:52:43,833 INFO [http-nio-8080-exec-5] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Endpoint para obtener transacciones completadas
+2024-11-01 17:52:55,980 INFO [http-nio-8080-exec-6] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Utilizando la API Stream
+2024-11-01 17:52:55,982 INFO [http-nio-8080-exec-6] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Endpoint para obtener transacciones ordenadas por fecha
+2024-11-01 17:53:23,523 INFO [http-nio-8080-exec-7] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Utilizando la API Stream
+2024-11-01 17:53:23,524 INFO [http-nio-8080-exec-7] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Endpoint para obtener el valor total de todas las transacciones
+2024-11-01 17:54:09,523 INFO [http-nio-8080-exec-8] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Iniciando creación de una nueva transacción: com.acervantes.ms_sistema_gestion.transaction.entity.Transaction@7249fa22
+2024-11-01 17:54:09,613 INFO [http-nio-8080-exec-8] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Transacción creada exitosamente con ID: 4
+2024-11-01 17:54:21,676 INFO [http-nio-8080-exec-9] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: *********************************************************
+2024-11-01 17:54:21,677 INFO [http-nio-8080-exec-9] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: ********* INICIA MICROSERVICIO TRANSACCIONES ************
+2024-11-01 17:54:21,677 INFO [http-nio-8080-exec-9] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: *********************************************************
+2024-11-01 17:54:21,677 INFO [http-nio-8080-exec-9] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Iniciando obtención de todas las transacciones
+2024-11-01 17:54:21,682 INFO [http-nio-8080-exec-9] com.acervantes.ms_sistema_gestion.transaction.controller.TransactionController: Transacciones obtenidas exitosamente. Total: 4
+2024-11-01 17:54:48,752 INFO [http-nio-8080-exec-10] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: *********************************************************
+2024-11-01 17:54:48,752 INFO [http-nio-8080-exec-10] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: ********* INICIA MICROSERVICIO DE PARÁMETROS ************
+2024-11-01 17:54:48,754 INFO [http-nio-8080-exec-10] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: *********************************************************
+2024-11-01 17:54:48,754 INFO [http-nio-8080-exec-10] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Iniciando operación para listar todos los parámetros
+2024-11-01 17:54:48,764 INFO [http-nio-8080-exec-10] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Parámetros recuperados exitosamente
+2024-11-01 17:54:54,466 INFO [http-nio-8080-exec-2] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Buscando parámetro con ID: 1
+2024-11-01 17:54:54,481 INFO [http-nio-8080-exec-2] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Parámetro encontrado con ID: 1
+2024-11-01 17:54:58,555 INFO [http-nio-8080-exec-1] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Buscando parámetro con ID: 3
+2024-11-01 17:54:58,561 INFO [http-nio-8080-exec-1] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Parámetro encontrado con ID: 3
+2024-11-01 17:55:09,064 INFO [http-nio-8080-exec-3] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Iniciando operación para eliminar el parámetro con ID: 3
+2024-11-01 17:55:09,101 INFO [http-nio-8080-exec-3] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Parámetro eliminado exitosamente con ID: 3
+2024-11-01 17:55:16,599 INFO [http-nio-8080-exec-4] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: *********************************************************
+2024-11-01 17:55:16,599 INFO [http-nio-8080-exec-4] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: ********* INICIA MICROSERVICIO DE PARÁMETROS ************
+2024-11-01 17:55:16,599 INFO [http-nio-8080-exec-4] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: *********************************************************
+2024-11-01 17:55:16,600 INFO [http-nio-8080-exec-4] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Iniciando operación para listar todos los parámetros
+2024-11-01 17:55:16,604 INFO [http-nio-8080-exec-4] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Parámetros recuperados exitosamente
+2024-11-01 17:55:38,090 INFO [http-nio-8080-exec-5] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Iniciando operación para actualizar el parámetro con ID: 1
+2024-11-01 17:55:38,114 INFO [http-nio-8080-exec-5] com.acervantes.ms_sistema_gestion.parameter.controller.ParameterController: Parámetro actualizado exitosamente con ID: 1
