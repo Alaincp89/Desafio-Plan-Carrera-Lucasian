@@ -1,12 +1,12 @@
-Sistema de Gestión de Transacciones y Parámetros
-Descripción del Proyecto
+📈 Sistema de Gestión de Transacciones y Parámetros
+Descripción del Proyecto 📝
 Este proyecto implementa un sistema de gestión de transacciones y parámetros, desarrollado como parte de un desafío técnico. El sistema está compuesto por dos microservicios independientes en Java, cada uno diseñado para manejar distintas funcionalidades:
 
-Microservicio de Transacciones: Gestiona la creación y consulta de transacciones.
+Microservicio de Transacciones: Gestiona la creación, actualización y consulta de transacciones.
 Microservicio de Parámetros: Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre distintos parámetros del sistema.
-Cada microservicio se conecta a su propia base de datos MySQL y está diseñado siguiendo los principios de la arquitectura limpia (Clean Architecture), asegurando una separación clara entre la lógica de negocio y la infraestructura.
+Cada microservicio se conecta a su propia base de datos MySQL y está diseñado siguiendo los principios de Clean Architecture, asegurando una separación clara entre la lógica de negocio y la infraestructura.
 
-Arquitectura del Sistema
+Arquitectura del Sistema 🏗️
 La arquitectura del sistema está organizada de la siguiente forma:
 
 API Gateway: Centraliza y gestiona las solicitudes que llegan a los microservicios. Permite la escalabilidad y el control del tráfico entre el cliente y los servicios internos.
@@ -20,7 +20,7 @@ Bases de Datos MySQL: Cada microservicio está conectado a una base de datos esp
 transaction_db para el microservicio de transacciones.
 parameter_db para el microservicio de parámetros.
 
-Consideraciones del Desafío
+Consideraciones del Desafío 🚀
 Requerimientos Funcionales
 Microservicio de Transacciones:
 
@@ -38,7 +38,7 @@ Logging: Configuración de Logback para registrar eventos importantes y gestiona
 Lombok: Utilizado para reducir la escritura de código repetitivo y mejorar la claridad del código.
 Pruebas Unitarias: Implementación de pruebas unitarias para garantizar la calidad del código y el correcto funcionamiento de los microservicios.
 Streams y Lambdas de Java: Utilizados para optimizar y simplificar el procesamiento de datos en el microservicio de transacciones.
-Tecnologías Utilizadas
+Tecnologías Utilizadas 💻
 Java 17
 Spring Boot
 Spring Data JPA
@@ -47,7 +47,7 @@ Logback
 Lombok
 JUnit 5 para pruebas unitarias
 Git para control de versiones
-Instalación y Ejecución
+Instalación y Ejecución ⚙️
 Requisitos Previos
 Tener instalado Java 17 o superior.
 Tener una instancia de MySQL configurada con dos bases de datos:
@@ -55,32 +55,32 @@ transaction_db para el microservicio de transacciones.
 parameter_db para el microservicio de parámetros.
 Configurar las credenciales de conexión a MySQL en los archivos de configuración (application.properties o application.yml) para cada microservicio.
 Pasos para la Ejecución
-Clona este repositorio:
+Clonar este repositorio:
 
 bash
 Copiar código
 git clone https://github.com/tu-usuario/ms-sistema-gestion.git
 cd ms-sistema-gestion
-Configura las bases de datos en MySQL:
+Configurar las bases de datos en MySQL:
 
 sql
 Copiar código
 CREATE DATABASE transaction_db;
 CREATE DATABASE parameter_db;
 -- Puedes ejecutar los scripts de generación de tablas que se encuentran en `scripts/`.
-Configura los archivos application.properties en cada microservicio con las credenciales de acceso a MySQL.
+Configurar los archivos application.properties en cada microservicio con las credenciales de acceso a MySQL.
 
-Compila y ejecuta cada microservicio:
+Compilar y ejecutar cada microservicio:
 
 bash
 Copiar código
 ./mvnw clean install
 ./mvnw spring-boot:run
-Accede a los endpoints a través de Postman o cualquier otra herramienta de prueba de API. Ejemplos de endpoints disponibles:
+Probar los endpoints a través de Postman o cualquier otra herramienta de prueba de API. Ejemplos de endpoints disponibles:
 
 GET /api/transactions/completed - Obtiene las transacciones completadas.
 GET /api/parameters - Lista todos los parámetros.
-Estructura de los Endpoints
+Estructura de los Endpoints 🌐
 Microservicio de Transacciones
 GET /api/transactions - Lista todas las transacciones.
 GET /api/transactions/completed - Obtiene las transacciones completadas.
@@ -92,13 +92,16 @@ GET /api/parameters/{id} - Consulta un parámetro específico por ID.
 POST /api/parameters - Crea un nuevo parámetro.
 PUT /api/parameters/{id} - Actualiza un parámetro existente.
 DELETE /api/parameters/{id} - Elimina un parámetro.
-Pruebas Unitarias
+Pruebas Unitarias 🧪
 Se han implementado pruebas unitarias para verificar el funcionamiento de los métodos principales en cada microservicio. Las pruebas están ubicadas en el directorio src/test y se ejecutan con JUnit 5. Para ejecutar las pruebas:
 
 bash
 Copiar código
 ./mvnw test
-Colaboradores
-Tu Nombre - Desarrollador Principal
-Contribuciones
+Colaboradores 🤝
+[Tu Nombre] - Desarrollador Principal
+Contribuciones 🛠️
 Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cualquier cambio que desees realizar.
+
+Licencia 📄
+Este proyecto está bajo la Licencia MIT.
